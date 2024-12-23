@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3a593bf6fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/chetan.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"><strong>Home</strong></a></li>
+                    <li><a href="#about"><strong>About</strong></a></li>
+                    <li><a href="#services"><strong>Services</strong></a></li>
+                    <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+                    <li><a href="#contact"><strong>Contact</strong></a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><strong>Web Developer</strong></p>
+                <h1>Hi, I'm <span>Chetan</span></h1>
+            </div>
+        </div>
+    </div>
+<!-------------about-------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Remini20211211105051527.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p class="content">Hi! I'm Chetan Sai, a passionate Web Developer skilled in creating modern, responsive, and user-friendly websites. I specialize in HTML, CSS, and JavaScript, and enjoy bringing creative ideas to life through clean and efficient code.
+
+                    With a focus on delivering high-quality web experiences, I have a keen eye for design and functionality. Whether it's developing sleek user interfaces or solving challenging coding problems, I thrive on turning concepts into reality.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Building Responsive & Web Interfaces</li>
+                            <li><span>Web Development</span><br>Dynamic Web Applications</li>
+                            <li><span>Python Programming </span><br>Backend Code for Web Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Portfolio Website</span><br><strong>A personal portfolio built using HTML, CSS, and JavaScript to showcase skills and projects.</strong></li>
+                            <li><span>Expense Tracker</span><br><strong> A Python-based application for tracking daily expenses, allowing users to add, view, and manage their expenses.</strong></li>
+                            <li><span>Sentiment Analysis </span><br><strong>A Python project to analyze text and determine its sentiment (positive, negative, or neutral) using data processing techniques.</strong></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology (B.Tech - ECE)</span><br><strong>Rajiv Gandhi University of Knowledge and Technologies : 2019-2023</strong></li>
+                            <li><span>Intermediate (MPC)</span><br><strong>Rajiv Gandhi University of Knowledge and Technologies : 2017-2019</strong></li>
+                            <li><span>Secondary School Certificate (SSC)</span><br><strong>A.P Model High School : 2017</strong></li>
+                        </ul>
+                    </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!---------services---------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Development</h2>   
+                <p> Crafting responsive, visually appealing, and interactive web interfaces using HTML, CSS, and JavaScript.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Development</h2>   
+                <p>Developing dynamic and functional web applications using Python and Django, with seamless integration between the frontend and backend.</p>
+                <a href="#">Learn More</a>
+               </div>
+
+               <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>UI/UX Implementation</h2>   
+                <p>Translating design ideas into clean, functional, and user-friendly web layouts.</p>
+                <a href="#">Learn More</a>
+               </div>
+
+        </div>
+    </div>
+</div>
+
+<!------------------Portfolio------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/web page.webp">
+                <div class="layer">
+                    <h3><strong>Portfolio Website</strong></h3>
+                    <p>A personal portfolio built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                    <a href="file:///C:/Users/cheta/Desktop/Personal-Portfolio/index.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/expensive tracker (1).webp">
+                <div class="layer">
+                    <h3><strong>Expense Tracker</strong></h3>
+                    <p>A Python-based application for managing and tracking daily expenses effectively.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Sentimental Analysis.webp">
+                <div class="layer">
+                    <h3><strong>Sentimental Analysis</strong></h3>
+                    <p>A Python project that analyzes text sentiment (positive, negative, or neutral) using data processing techniques.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-----------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> chetansai702@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91-8185839144</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/chetan-sai-kumar-mongam-733856252/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/chetansai702"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:chetansai702@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="Images/My-Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <strong>@ Chetan.</strong> Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwcqFKAT2bBx4tzGf0ogsf6N2pvt583Vf_CzpNGNH3tDomlwwxrYv2FlPf7XsoSlIXFmA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully !"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
